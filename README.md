@@ -3,7 +3,7 @@
 
  Estou aprendendo a criar sites e a gerenciar os repositórios!
 
-<a href="https://geffersoncosta.github.io/html-css/exercicios/ex001/" target="_blank" rel="interno">Executar Exercício 001</a><br>
+<a href="https://geffersoncosta.github.io/html-css/exercicios/ex001/" target="_blank" rel="externo">Executar Exercício 001</a><br>
 <a href="https://geffersoncosta.github.io/html-css/exercicios/ex002/" target="_blank">Executar Exercício 002</a><br>
 <a href="https://geffersoncosta.github.io/html-css/exercicios/ex003/" target="_blank">Executar Exercício 003</a><br>
 <a href="https://geffersoncosta.github.io/html-css/exercicios/ex004/" target="_blank">Executar Exercício 004</a><br>
