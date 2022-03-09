@@ -18,6 +18,3 @@
 <a href="https://geffersoncosta.github.io/html-css/exercicios/ex013/" target="_blank">Executar Exercício 013</a><br>
 <a href="https://geffersoncosta.github.io/html-css/exercicios/ex014/" target="_blank">Executar Exercício 014</a><br>
 <a href="https://geffersoncosta.github.io/html-css/exercicios/ex015/" target="_blank">Executar Exercício 015</a><br>
-<a href="https://geffersoncosta.github.io/html-css/exercicios/ex016/" target="_blank">Executar Exercício 016</a><br>
-<a href="https://geffersoncosta.github.io/html-css/exercicios/ex017/" target="_blank">Executar Exercício 017</a><br>
-<a href="https://geffersoncosta.github.io/html-css/exercicios/ex018/" target="_blank">Executar Exercício 018</a><br>
