@@ -1,0 +1,33 @@
+@charset="utf-8";
+body{
+	background-color:lightgreen ;
+	font-family: sans-serif;
+
+}
+h1{
+	color: darkgreen;
+}
+#principal{
+	background-color: darkgreen;
+	color: white;
+}
+h2{
+	color: darkgreen;
+
+}
+
+.basico{
+	color: limegreen;
+}
+
+.intermediario{
+	color: yellow;
+}
+
+.avancado{
+	color: red;
+}
+
+.destaque{
+   background-color: greenyellow;  
+}
