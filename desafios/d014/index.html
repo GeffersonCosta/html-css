@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tabelas</title>
+	<style type="text/css">
+		table{
+			width: 500px;
+			border-collapse: collapse;
+			font-family: sans-serif;
+		}
+		
+		thead th,.media{
+			border: 1px solid black;
+			
+			background-color: rgb(0, 0, 0,0.4);
+			color: white;
+		}
+		th,td{
+			border: 1px solid black;
+
+		}
+		td.num{
+			text-align: center;
+		}
+		.media > th{
+			text-align: left;
+		}
+		
+	</style>
+
+</head>
+<body>
+
+	<h1>Desafio tabelas</h1>
+
+	<table>
+		<thead>
+		<tr>
+		<th rowspan="2" scope="col">Área</th>
+		<th rowspan="2" scope="col">Disciplinas</th>
+		<th colspan="2" scope="colgroup">Notas</th>
+		<th rowspan="2" scope="col">Médias</th>
+		</tr>
+		<tr>
+		<th>Nota 1</th>
+		<th>Nota 2</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<th rowspan="4" scope="rowgroup">Exatas</th>
+			<td>Matemática</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			</tr>
+			<tr>
+			<td>Física</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			</tr>
+			<tr>
+			<td>Química</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			</tr>
+			<tr>
+			<td>Biologia</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			</tr>
+			<tr class="media">
+				<th colspan="4" scope="row">Média de Exatas</th>
+				<td class="num">0.0</td>
+			</tr>
+			<tr>
+			<th rowspan="2" scope="rowgroup">Humanas</th>
+			<td>História</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			</tr>
+			<tr>
+			<td>Geografia</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			<td class="num">0.0</td>
+			</tr>
+			<tr class="media">
+				<th colspan="4" scope="row">Média de Humanas</th>
+				<td class="num">0.0</td>
+			</tr>
+		</tbody>
+	</table>
+	
+
+</body>
+</html>
