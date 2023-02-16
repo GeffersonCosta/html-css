@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+     <h1>Exemplo de Formulário</h1>
+     <form action="cadastro.php" method="get" autocomplete="on">
+
+
+    <p>
+        <label for="istate">State:</label>
+        <select name="state" id="istate">
+            <option value="" selected>--- choice ---</option>
+            <option value="SD">Dakota del Sur</option>
+            <option value="DE">Delaware</option>
+            <option value="FL">Florida</option>
+            <option value="GA"> Georgia</option>
+            <option value="IN">Indiana</option>
+        </select>
+
+    </p>
+   
+    <p>
+        <label for="iprof">Job:</label>
+        <input type="text" name="prof" id="iprof" list="listprof">
+        <datalist id="listprof">
+            <option>Desenvolvedor</option>
+            <option>Professor</option>
+            <option>Médico</option>
+            <option>Advogado</option>
+        </datalist>
+    </p>
+    <p>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </p>
+
+    
+     </form>
+    
+</body>
+</html>
