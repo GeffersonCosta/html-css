@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h1>Form Exemple</h1>
+
+    <form action="cadastro.php" method="get">
+
+        <p>
+            
+            <label for="iyear">What year were you born?</label>
+            <input type="number" name="year" id="iyear" min="1940" max="2023"
+            oninput="calcIdade()"
+            >
+            
+        </p>
+        <p>
+            <label for="age">Your age is:</label>
+            <output id="iage"></output>
+        </p>
+          
+
+       <p>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+       </p>  
+       
+       <script>
+        function calcIdade(){
+            let actual = new Date().getFullYear()
+            iage.innerHTML = Number(actual) - Number(iyear.value)
+        }
+       </script>
+
+
+    </form>
+    
+</body>
+</html>
