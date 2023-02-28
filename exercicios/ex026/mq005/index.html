@@ -7,8 +7,9 @@
     <title>Media query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-queries.css">
 </head>
-<body>
+<body onresize="changeSize()">
         <header>
             <h1>My Website</h1>
                 <span id="mburguer" class="material-symbols-outlined" onclick="clickMenu()">
@@ -91,6 +92,16 @@
            </article>
         </main>
         <script>
+             function changeSize(){
+                if(window.innerWidth >= 768){
+                    menu.style.display = "block"
+                }
+                else{
+                    menu.style.display = "none"
+                }
+             }
+
+
              function clickMenu(){
             if(menu.style.display=="block"){
 
