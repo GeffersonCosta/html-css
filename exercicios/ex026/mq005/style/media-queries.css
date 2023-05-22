@@ -5,7 +5,7 @@
   
     span#mburguer{display:none;}
     menu{
-        display: block;
+        display:block;
     }
     menu > ul{
         display: flex;
